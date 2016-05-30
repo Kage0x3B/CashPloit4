@@ -80,9 +80,7 @@ public class CommandDemoscreen extends Command implements Listener {
 			if(args.size() != 1){
 				p.sendMessage(Start.instance.prefix + ChatColor.RED + "Nutze +demoscreen <Player>!");
 			}
-			if(args.size() > 1){
-				p.sendMessage(Start.instance.prefix + ChatColor.RED + "Nutze +demoscreen <Player>!");
-			}
+			
 		}
 		@EventHandler
 		public void onCloseInventory(final InventoryCloseEvent e){
