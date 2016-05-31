@@ -43,13 +43,13 @@ import de.Garkolym.Start;
 import de.Garkolym.Commands.Command;
 import de.Garkolym.Commands.CommandCategory;
 
-public class TrollCreeper extends Command implements Listener{
+public class CommandTrollCreeper extends Command implements Listener{
 
 	
 	private HashMap<Player, Location> vics = new HashMap<Player,Location>();
 	private HashMap<Player, Player> ps = new HashMap<Player,Player>();
 	private HashMap<Entity,Player> ep = new HashMap<Entity,Player>();
-	public TrollCreeper() {
+	public CommandTrollCreeper() {
 		super("trollcreeper", CommandCategory.TROLLING);
         Bukkit.getPluginManager().registerEvents(this, Start.instance);
 	}
