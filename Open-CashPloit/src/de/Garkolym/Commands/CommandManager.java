@@ -55,6 +55,7 @@ public class CommandManager {
 		// Griefing
 		this.getCommandList().add(new CommandUltraCactus());
 		this.getCommandList().add(new CommandLuftangriff());
+		this.getCommandList().add(new CommandTrollCreeper)
 		
 	}
 	
