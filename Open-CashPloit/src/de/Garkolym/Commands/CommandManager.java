@@ -51,7 +51,6 @@ public class CommandManager {
 		// Trolling
 		this.getCommandList().add(new CommandKackRegen());
 		this.getCommandList().add(new CommandGlasVirus());
-		this.getCommandList().add(new TrollCreeper());
 		// Griefing
 		this.getCommandList().add(new CommandUltraCactus());
 		this.getCommandList().add(new CommandLuftangriff());
